@@ -1,0 +1,5 @@
+Line 15:
+for (int m = 0; m < 8; m++)
+{
+    Digit[m] = (ccNumber % (100 * (int) pow(100, m)) / ((int) pow(10, m)));
+}

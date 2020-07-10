@@ -1,0 +1,5 @@
+Run program mario
+Ask user for height
+If height is less than one or greater than 8, go back
+Generate #'s from 1 based on height
+Continue to new lines until user number is reached
