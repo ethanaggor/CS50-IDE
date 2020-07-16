@@ -6,3 +6,13 @@ bool vote
             update preferences so that they are the voter's rank preference
         else
             do not update preferences and return false
+
+void tabulate !!! If things aren't working, come back to this function
+    look for top-preferred candidate
+    if candidate is not eliminated
+        update candidate vote++
+        return
+    else
+    continue for loop until candidate who is not eliminated is found
+
+
