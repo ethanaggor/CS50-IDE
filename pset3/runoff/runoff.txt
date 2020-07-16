@@ -1,0 +1,8 @@
+For 6 functions of runoff.c:
+
+bool vote
+    look for a candidate called name
+        if candidate is found
+            update preferences so that they are the voter's rank preference
+        else
+            do not update preferences and return false
