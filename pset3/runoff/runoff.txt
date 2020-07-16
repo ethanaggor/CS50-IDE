@@ -22,4 +22,9 @@ bool print_winner
     else
         return false
 
+int find_min
+    iterate through the array of candidate votes
+    if the candidate is not eliminated
+        if array number is < voter_count set to int min
+    return the value of min
 
