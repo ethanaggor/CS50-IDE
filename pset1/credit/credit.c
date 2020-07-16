@@ -10,6 +10,10 @@ int main(void)
 
     //Multiply every other digit by 2 starting with the second-to-last digit
 
+    ccNumber %= 10;
+
+    printf("%ld\n", ccNumber);
+
     //Add product's digits together
 
     //Add sum to the sum of digits that weren't counted
