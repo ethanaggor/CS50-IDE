@@ -135,7 +135,8 @@ for (int j = 0; j < candidate_count; j++)
    {
        if (strcmp(name, candidates[j].name) == 0)
        {
-           preferences[i][j] = j;
+           preferences[voter][rank] = j;
+
            return true;
        }
    }
