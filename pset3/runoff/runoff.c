@@ -131,15 +131,12 @@ bool vote(int voter, int rank, string name)
 {
 for (int j = 0; j < candidate_count; j++)
 {
-   for (int i = 0; i < candidate_count; i++)
-   {
        if (strcmp(name, candidates[j].name) == 0)
        {
            preferences[voter][rank] = j;
 
            return true;
        }
-   }
 }
     return false;
 }
