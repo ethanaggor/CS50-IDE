@@ -1,0 +1,6 @@
+grayscale function
+iterate through each row
+    iterate through each column for every row
+    take an average of the RBG values of the pixel selected
+    replace each of the RGB values with the average
+
