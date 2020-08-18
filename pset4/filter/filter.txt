@@ -4,3 +4,37 @@ iterate through each row
     take an average of the RBG values of the pixel selected
     replace each of the RGB values with the average
 
+sepia function
+iterate through each row
+    iterate through each column of every row
+    calculate sepia values
+    if sepia value is greater than 255
+        cap value at 255
+    set selected pixel to sepia value
+
+reflect function
+iterate through each row
+    iterate through each column of every row
+    store location in a temporary variable
+    assign first half of image (left to right) to the last half of image (right to left)
+    once half of the image has been reflected, assign the last half of the image (left to right) to the first half stored in a variable (right to left)
+
+blur function
+iterate through each row
+    iterate through each column of every row
+    copy the entire image into a temporary array
+
+iterate through each row
+    iterate through each column of every row
+    take the values (in the temporary image) of one row and one column away and average each RGB value
+    apply the average to the same location on the original image
+
+    for each row
+    for each col
+        set count to 0
+        for every neighboring pixel within the radius m in the x direction
+            for every neighboring pixel within the radius m in the y direction
+                 add the color to the total
+                 count++
+        final_color = total/count
+        setpixel(current x, current y, final_color)
